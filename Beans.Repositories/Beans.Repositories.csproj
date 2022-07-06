@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+	  <Authors>V. James Krammes</Authors>
+	  <Company>VJK Solutions, LLC</Company>
+	  <Product>Beans</Product>
+	  <Description>
+		  This is the data repository libray for the Beans project including entity classes
+	  </Description>
+	  <Copyright>© Copyright 2019-2022 VJK Solutions, LLC. All Rights Reserved.</Copyright>
+	  <NeutralLanguage>en-US</NeutralLanguage>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Dapper" Version="2.0.123" />
+    <PackageReference Include="Dapper.Contrib" Version="2.0.78" />
+    <PackageReference Include="System.Data.SqlClient" Version="4.8.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Beans.Common\Beans.Common.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+	  <Authors>V. James Krammes</Authors>
+	  <Company>VJK Solutions, LLC</Company>
+	  <Product>Beans</Product>
+	  <Description>
+		  This is the libray containg the shared DTO models for the Beans project 
+	  </Description>
+	  <Copyright>© Copyright 2019-2022 VJK Solutions, LLC. All Rights Reserved.</Copyright>
+	  <NeutralLanguage>en-US</NeutralLanguage>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Beans.Common\Beans.Common.csproj" />
+    <ProjectReference Include="..\Beans.Repositories\Beans.Repositories.csproj" />
+  </ItemGroup>
+
+</Project>
